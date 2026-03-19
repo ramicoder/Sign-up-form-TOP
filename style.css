@@ -1,3 +1,28 @@
 body {
     display: flex;
+    width: 100vh;
+    height: 100vh;
+}
+
+.left-side-screen {
+    background-image: url(image.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+.right-side-screen {
+    width: 60vw;
+}
+.logo {
+    height:60px;
+    width: 60px;
+    mix-blend-mode:  ;
+}
+.citation {
+    background-color: white;
+    width: 230px;
+    border-radius: 6px;
 }
