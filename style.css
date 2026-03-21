@@ -4,30 +4,44 @@ body {
     display: flex;
     width: 100vh;
     height: 100vh;
+    margin: 0;
 }
-
 .left-side-screen {
     background-image: url(image.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
     width: 40vw;
-    justify-content: center;
     align-items: center;
+    justify-content: end;
 }
-.right-side-screen {
-    width: 60vw;
+.left-side-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 58vh;
 }
 .logo {
     height:140px;
     width: 140px;
+    margin-bottom: -50px;
 }
+.logo-background {
+    justify-self: center;
+    background-color: #140b0b7e;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .citation {
     background-color: grey;
     width: 230px;
     border-radius: 6px;
     padding: 3px;
-    margin-top: 700px;
 }
 .left-content {
     display: flex;
@@ -37,5 +51,53 @@ body {
 
 .logo-descript {
     font-family: 'Sentient', serif;
-    color: #fff
+    color: #fff;
+    margin-top: 0;
+    padding-bottom: 10px;
+    justify-self: flex-end;
+}
+.right-side-screen {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.paragraph-container {
+    width: 60vw;
+    height: 33%;
+    background-color: rgba(57, 57, 57, 0.095);
+    justify-content: center;
+    align-items: center;
+}
+.paragraph {
+    width: 50vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 33px;
+    margin-left: 85px;
+    padding-top: 65px;
+}
+.form {
+    margin-left: 85px;
+    display: flex;
+    flex-direction: column;
+
+
+
+
+    p {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 33px;
+    }
+    input {
+        width: 100px;
+        border: 1px block ;
+    }
+
+}
+
+.name {
+    
+  display: flex;
+  flex-direction: column; /* Stacks children (label and input) vertically */
+  margin-bottom: 15px;    /* Adds spacing between form groups */
 }
