@@ -27,6 +27,8 @@ It is a **sign-up form** for an imaginary service, designed to practice:
 - Open `index.html` in a web browser
 - Fill in the form fields to see the styling and validation effects
 
+## Live Preview: <https://ramicoder.github.io/Sign-up-form/>
+
 ## Notes
 - Password matching validation is **not implemented**; only individual field validation is applied
 - This project is designed for desktop layout only; responsive design is not included
